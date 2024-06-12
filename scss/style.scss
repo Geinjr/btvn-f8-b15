@@ -1,0 +1,33 @@
+@use "partials/fonts";
+@use "partials/reset";
+@use "partials/base";
+@use "partials/variables";
+
+@use "layout/header";
+@use "layout/footer";
+
+@use "pages/home";
+@use "pages/products";
+@use "pages/about";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Inter", sans-serif;
+}
+
+input,
+button,
+textarea,
+select {
+    outline: none;
+    border: none;
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
